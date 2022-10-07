@@ -1,0 +1,1567 @@
+<!DOCTYPE html>
+
+<html ng-app="App" class="no-js ng-scope" lang="" style="height: 100%;">
+
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<style>
+		@charset "UTF-8";
+
+		[ng\:cloak],
+		[ng-cloak],
+		[data-ng-cloak],
+		[x-ng-cloak],
+		.ng-cloak,
+		.x-ng-cloak,
+		.ng-hide:not(.ng-hide-animate) {
+			display: none !important;
+		}
+
+		ng\:form {
+			display: block;
+		}
+
+		.ng-animate-shim {
+			visibility: hidden;
+		}
+
+		.ng-anchor {
+			position: absolute;
+		}
+	</style>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="google-site-verification" content="OhRNxj17mqWkjNqebwRlc28g3m_sEik8_cr-q27Xqpg"><!-- <base href="/"> -->
+	<title ng-bind="tituloPagina + &#39; | Portal MINFIN&#39;" class="ng-binding">Home | Portal MAT</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="apple-touch-icon" href="asset/apple-touch-icon.png">
+	<meta name="google" content="notranslate">
+	<link rel="shortcut icon" href="">
+	<link rel="manifest" href="https://www.minfin.gov.ao/PortalMinfin/manifest.json">
+	<link rel="stylesheet" href="asset/fonts-7c0d68a4481662545247404.css">
+	<link rel="stylesheet" href="asset/plugins-10e68304631662545247404.css">
+	<link rel="stylesheet" href="asset/app-312693a8901662545247404.css">
+	<script src="asset/cb=gapi.loaded_2" async=""></script>
+	<script src="asset/cb=gapi.loaded_1" async=""></script>
+	<script src="asset/cb=gapi(1).loaded_0" async=""></script>
+	<link type="text/css" rel="stylesheet" charset="UTF-8" href="asset/translateelement.css">
+	<link href="asset/font-awesome.min.css" rel="stylesheet" media="all">
+	<link href="asset/fontawesome-all.min.css" rel="stylesheet" media="all">
+	<script type="text/javascript" charset="UTF-8" src="asset/m=el_main"></script>
+	<style>
+		.gapi-analytics-data-chart .google-visualization-table {
+			border: 0;
+			z-index: 0
+		}
+
+		.gapi-analytics-data-chart .google-visualization-table-table {
+			background: #fff;
+			border-collapse: collapse;
+			border-spacing: 0;
+			font: inherit;
+			cursor: default;
+			width: 100% !important
+		}
+
+		.gapi-analytics-data-chart .google-visualization-table-table * {
+			font: inherit;
+			vertical-align: inherit
+		}
+
+		.gapi-analytics-data-chart .google-visualization-table-sortind {
+			color: silver;
+			display: inline-block;
+			font: 1em/0 Arial, sans-serif;
+			margin: 0 0 0 .5em;
+			padding: 0
+		}
+
+		.gapi-analytics-data-chart .google-visualization-table-td-bool,
+		.gapi-analytics-data-chart .google-visualization-table-td-center,
+		.gapi-analytics-data-chart .google-visualization-table-td-number {
+			text-align: right
+		}
+
+		.gapi-analytics-data-chart .gapi-analytics-data-chart-styles-table-tr-odd {
+			background: #f8f8f8
+		}
+
+		.gapi-analytics-data-chart .gapi-analytics-data-chart-styles-table-tr-over {
+			background-color: #f0f0f0
+		}
+
+		.gapi-analytics-data-chart .gapi-analytics-data-chart-styles-table-tr-sel {
+			background-color: #ffffc0
+		}
+
+		.gapi-analytics-data-chart .gapi-analytics-data-chart-styles-table-tr-even:last-child,
+		.gapi-analytics-data-chart .gapi-analytics-data-chart-styles-table-tr-odd:last-child {
+			border-bottom: 1px solid #e8e8e8
+		}
+
+		.gapi-analytics-data-chart .gapi-analytics-data-chart-styles-table-th {
+			border: 0;
+			border-bottom: 1px solid #a8a8a8;
+			font-weight: 700;
+			padding: .6em 1em;
+			text-align: left;
+			white-space: nowrap
+		}
+
+		.gapi-analytics-data-chart .gapi-analytics-data-chart-styles-table-td {
+			border: 0;
+			border-left: 1px solid #e8e8e8;
+			padding: .6em 1em
+		}
+
+		.gapi-analytics-data-chart .gapi-analytics-data-chart-styles-table-td:first-child {
+			border-left: 0
+		}
+	</style>
+	<style type="text/css">
+		/* Chart.js */
+		/*
+ * DOM element rendering detection
+ * https://davidwalsh.name/detect-node-insertion
+ */
+		@keyframes chartjs-render-animation {
+			from {
+				opacity: 0.99;
+			}
+
+			to {
+				opacity: 1;
+			}
+		}
+
+		.chartjs-render-monitor {
+			animation: chartjs-render-animation 0.001s;
+		}
+
+		/*
+ * DOM element resizing detection
+ * https://github.com/marcj/css-element-queries
+ */
+		.chartjs-size-monitor,
+		.chartjs-size-monitor-expand,
+		.chartjs-size-monitor-shrink {
+			position: absolute;
+			direction: ltr;
+			left: 0;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			overflow: hidden;
+			pointer-events: none;
+			visibility: hidden;
+			z-index: -1;
+		}
+
+		.chartjs-size-monitor-expand>div {
+			position: absolute;
+			width: 1000000px;
+			height: 1000000px;
+			left: 0;
+			top: 0;
+		}
+
+		.chartjs-size-monitor-shrink>div {
+			position: absolute;
+			width: 200%;
+			height: 200%;
+			left: 0;
+			top: 0;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" id="u0" href="asset/skin.min.css">
+</head>
+
+<body class="body" style="position: relative; min-height: 100%; top: 0px;">
+	<minfin-default-header class="ng-isolate-scope">
+		<div class="container-fluid barra-top">
+			<div class="row linha-1">
+				<div class="col-md-12 coluna-1"></div>
+			</div>
+			<div class="row linha-2">
+				<div class="container">
+					<div class="col-md-12 coluna-1">
+						<h1 class="ng-binding">MINISTÉRIO DA ADMINISTRAÇÃO DO TERRITÓRIO</h1>
+					</div>
+				</div>
+			</div>
+			<div class="row linha-3">
+				<div class="col-md-12">
+					<div class="imagem-principal" ui-sref="home" href="#!/"><img height="159px" src="img.png"
+							class="img-responsive" alt="Governo de Angola Ministério da Administração do Território">
+					</div>
+				</div>
+			</div><!-- <bandeira-de-traducao style="background: red"></bandeira-de-traducao> -->
+		</div>
+	</minfin-default-header>
+	<div>
+		<navigation-bar menuarray="menu" class="ng-isolate-scope"><button type="button" class="navbar-toggle collapsed"
+				style="z-index: 1000;" data-toggle="collapse" data-target="#menuPrincipal" aria-expanded="false"><span
+					class="sr-only">Alternar navegacao</span> <span class="icon-bar">&nbsp;</span> <span
+					class="icon-bar">&nbsp;</span> <span class="icon-bar">&nbsp;</span></button>
+			<div class="container-fluid nopadding">
+				<div class="hidden-print">
+					<div class="container top-header-menu">
+						<div class="row nomargin">
+							<!--<div class="col-sm-2 nopadding icon-home"><a ui-sref="home"
+									href=""><i
+										class="fa fa-home icon-home__fa" aria-hidden="true"></i></a></div>-->
+							<div class="col-sm-10 nopadding container-nav-menu">
+								<div class="navbar-collapse collapse navbar-right" id="menuPrincipal">
+									<ul class="nav navbar-nav">
+
+										<li ng-repeat="menuItem in $ctrl.menuarray"
+											ng-if="menuItem.flAtivo == &#39;S&#39;" ng-click="tirarClasse()"
+											class="menu-pai ng-scope"
+											ng-class="{&#39;dropdown&#39;: menuItem.subPaginas}" style=""><a
+												check-href="#" class="waves-effect medium principal-item-menu"
+												ng-class="{&#39;dropdown-toggle&#39;: menuItem.subPaginas}"
+												data-toggle="" role="button" href="#"><span
+													class="ng-binding">Início</span>&nbsp;
+											</a>
+										</li>
+										<li ng-repeat="menuItem in $ctrl.menuarray"
+											ng-if="menuItem.flAtivo == &#39;S&#39;" ng-click="tirarClasse()"
+											class="menu-pai ng-scope"
+											ng-class="{&#39;dropdown&#39;: menuItem.subPaginas}" style=""><a
+												check-href="#" class="waves-effect medium principal-item-menu"
+												ng-class="{&#39;dropdown-toggle&#39;: menuItem.subPaginas}"
+												data-toggle="" role="button" href="#"><span
+													class="ng-binding">Sobre</span>&nbsp;
+											</a>
+										</li>
+
+										<li ng-repeat="menuItem in $ctrl.menuarray"
+											ng-if="menuItem.flAtivo == &#39;S&#39;" ng-click="tirarClasse()"
+											class="menu-pai ng-scope"
+											ng-class="{&#39;dropdown&#39;: menuItem.subPaginas}" style=""><a
+												check-href="#" class="waves-effect medium principal-item-menu"
+												ng-class="{&#39;dropdown-toggle&#39;: menuItem.subPaginas}"
+												data-toggle="" role="button" href="#"><span
+													class="ng-binding">Contacto</span>&nbsp;
+											</a>
+										</li>
+
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<script type="text/ng-template" id="submenu.html"><a class="waves-effect medium" check-href="{{ $ctrl.linkarSubMenus(subMenuItem) }}" ng-class="{'dropdown-toggle': subMenuItem.subPaginas}" data-toggle="{{subMenuItem.subPaginas ? 'dropdown': ''}}" role="button">
+		<span>{{ subMenuItem.displayName }}</span>
+	</a>
+	
+	<ul class="dropdown-menu" ng-if="subMenuItem.subPaginas">
+		<li ng-include="'submenu.html'" ng-click="adicionarClasse()" ng-repeat="subMenuItem in subMenuItem.subPaginas" ng-if="subMenuItem.flAtivo == 'S'" ng-class="{'dropdown-submenu': subMenuItem.subPaginas}">
+		</li>
+	</ul></script><!-- Modal Recuperar Palavra-Passe -->
+
+
+			<script>setTimeout(function () {
+
+					var paigrande = document.querySelectorAll("#menuPrincipal ul .dropdown");
+
+					paigrande.forEach(pg => {
+
+						pg.addEventListener("click", function () {
+							if (pg.classList.contains("open") == true) {
+								pg.classList.add("fechar");
+							}
+							else
+								pg.classList.remove("fechar");
+						});
+					});
+
+					var paistop = document.querySelectorAll("#menuPrincipal ul .dropdown .dropdown-menu");
+
+					paistop.forEach(ps => {
+						ps.addEventListener("click", function (e) {
+							e.stopPropagation();
+						});
+					});
+
+					var filhopequeno = document.querySelectorAll("#menuPrincipal ul .dropdown li.ng-scope.dropdown-submenu");
+
+					filhopequeno.forEach(fp => {
+
+						fp.addEventListener("click", function () {
+							if (fp.classList.contains("open") == false) {
+								fp.classList.add("open");
+								fp.classList.remove("fechar");
+							}
+							else if (fp.classList.contains("open") == true) {
+								fp.classList.remove("open");
+								fp.classList.add("fechar");
+							}
+						});
+					});
+
+				}, 3000);</script>
+		</navigation-bar><!-- uiView: -->
+		<ui-view class="ng-scope" style="">
+			
+			<div class="home ng-scope" id="home" ng-init="init()">
+				<div class="container margin-top-10 margin-bottom-40">
+					<div class="col-md-16 margin-top-20 margin-bottom-10">
+						<h4 class="section-title ng-binding">Destaques</h4> 
+						<div>
+							<div class="col-sm-16">
+
+								<marquee scrolldelay="8" behavior="scroll"
+									ng-if="(noticiasRecentes.length &gt; 0)" class="ng-scope" style="">
+									<!-- ngRepeat: not in noticiasRecentes --><span
+										ng-repeat="not in noticiasRecentes" class="ng-scope"><a
+											style="margin-left:0px;color:#333;font-style: italic;" ui-shref=""
+											class="ng-binding">Ministro da administração do território
+											Destaca potencialidades da província do zaire<i
+												style="font-size: 10px; margin:0 10px; border-right: solid #000 2px;"></i></a></span>
+									<!-- end ngRepeat: not in noticiasRecentes --><span
+										ng-repeat="not in noticiasRecentes" class="ng-scope"><a
+											style="margin-left:0px;color:#333;font-style: italic;" ui-shref=""
+											class="ng-binding">Governador marcos alexandre nhunga apresentado
+											Na província de malanje.<i
+												style="font-size: 10px; margin:0 10px; border-right: solid #000 2px;"></i></a></span>
+									<!-- end ngRepeat: not in noticiasRecentes --><span
+										ng-repeat="not in noticiasRecentes" class="ng-scope"><a
+											style="margin-left:0px;color:#333;font-style: italic;" ui-shref=""
+											class="ng-binding">Sindicato de
+											Trabalhadores apresenta
+											Cumprimentos de cortesia ao ministroO<i
+												style="font-size: 10px; margin:0 10px; border-right: solid #000 2px;"></i></a></span>
+									<!-- end ngRepeat: not in noticiasRecentes --><span
+										ng-repeat="not in noticiasRecentes" class="ng-scope"><a
+											style="margin-left:0px;color:#333;font-style: italic;" ui-shref=""
+											class="ng-binding">Ministro do mat apela aos secretários de estado,
+											Espírito de harmonia e trabalho em equipa<i
+												style="font-size: 10px; margin:0 10px; border-right: solid #000 2px;"></i></a></span>
+									<!-- end ngRepeat: not in noticiasRecentes --><span
+										ng-repeat="not in noticiasRecentes" class="ng-scope"><a
+											style="margin-left:0px;color:#333;font-style: italic;" ui-shref=""
+											class="ng-binding">Novo governador de luanda apresentado ao
+											Colectivo de trabalhadores do gpl<i
+												style="font-size: 10px; margin:0 10px; border-right: solid #000 2px;"></i></a></span>
+									<!-- end ngRepeat: not in noticiasRecentes -->
+								</marquee><!-- end ngIf: (noticiasRecentes.length > 0) -->
+							</div>
+							<!--<div class="col-sm-2 mark text-center"
+								style="border-radius:0 3px 3px 0; margin-left: 0px;"><a ui-sref=""
+									class="ng-binding" href="#" style="color:#f0f0f0">Ver
+									Todas &nbsp; <i class="fa fa-eye"></i></a></div>-->
+						</div>
+					</div>
+					<!-- Guias --> 
+					<div class="row margin-top-10 margin-bottom-10">
+						<div class="col-sm-9">
+							<div class="row">
+								<div class="col-md-12 format-carousel">
+									<carousel-vertical itens="noticiasRecentes" class="ng-isolate-scope">
+										<div id="carousel-vertical" class="carousel material slide"
+											data-ride="carousel">
+											<!-- Wrapper for slides -->
+											<div class="carousel-inner" role="listbox">
+												<!-- ngRepeat: carouselItem in $ctrl.itens -->
+												<div class="item ng-scope active"
+													ng-repeat="carouselItem in $ctrl.itens" ng-class="{active: $first}"
+													style=""><a
+														ui-sref=""
+														href="">
+														<div back-img="" class="img-principal"
+															style="background-image: url(&quot;img/reuniao.jpg&quot;);">
+														</div>
+													</a><a
+														ui-sref=""
+														class="carousel-caption white-text" href="#">
+														<div class="title white-text"><span
+																class="thumb-title ng-isolate-scope"
+																ng-tt-chars-threshold="95"
+																ng-text-truncate="carouselItem.titulo">Ministério da
+																Administração e Território
+																Recebe em Audiência a Direcção do COnselho da Juventude
+															</span></div>
+														<div class="desc white-text"><span
+																class="thumb-title ng-isolate-scope"
+																ng-tt-chars-threshold="60"
+																ng-text-truncate="carouselItem.sumario"><span
+																	class="ng-scope">O Ministro da Administração do
+																	Território, Dionísio da Fonseca,
+																	recebeu nesta quarta-feira,5 de Outubro de 2022, os
+																	membros do Conselho Nacional da Juventude
+																	(CNJ).<span ng-show="!open">...</span><span
+																		class="btn-link ngTruncateToggleText"
+																		ng-click="toggleShow()" ng-show="!open">
+																		More</span><span ng-show="open"
+																		class="ng-hide">O encontro com os responsáveis
+																		da maior plataforma juvenil,
+																		liderada por Isaias Calunga, serviu para abordar
+																		algumas questões relacionadas ao
+																		funcionamento dos Comités Provinciais e
+																		Municipais da Juventude, assim como certos
+																		projectos que o CNJ pretende implementar em todo
+																		país. .<span
+																			class="btn-link ngTruncateToggleText"
+																			ng-click="toggleShow()">
+																			Less</span></span></span></span></div>
+													</a></div><!-- end ngRepeat: carouselItem in $ctrl.itens -->
+												<div class="item ng-scope" ng-repeat="carouselItem in $ctrl.itens"
+													ng-class="{active: $first}" style=""><a
+														ui-sref=""
+														href="#">
+														<div back-img="img/func.jpg" class="img-principal"
+															style="background-image: url(&quot;img/func.jpg&quot;);">
+														</div>
+													</a><a
+														ui-sref=""
+														class="carousel-caption white-text" href="#">
+														<div class="title white-text"><span
+																class="thumb-title ng-isolate-scope"
+																ng-tt-chars-threshold="95"
+																ng-text-truncate="carouselItem.titulo">SINDICATO DE
+																TRABALHADORES APRESENTA
+																CUMPRIMENTOS DE CORTESIA AO MINISTRO</span></div>
+														<div class="desc white-text"><span
+																class="thumb-title ng-isolate-scope"
+																ng-tt-chars-threshold="60"
+																ng-text-truncate="carouselItem.sumario"><span
+																	class="ng-scope">Os representantes da Comissão
+																	Sindical de Trabalhadores do Ministério da
+																	Administração do Território (CSTMAT),
+																	apresentaram nesta Segunda-feira, <span
+																		ng-show="!open">...</span><span
+																		class="btn-link ngTruncateToggleText"
+																		ng-click="toggleShow()" ng-show="!open">
+																		More</span><span ng-show="open" class="ng-hide">
+																		03.10.2022, cumprimentos de cortesia ao Ministro
+																		Dionísio da Fonseca.
+																		Os Sindicalistas aproveitaram o encontro para
+																		apresentar algumas preocupações
+																		que afligem a classe de trabalhadores do MAT.
+																		<span class="btn-link ngTruncateToggleText"
+																			ng-click="toggleShow()">
+																			Less</span></span></span></span></div>
+													</a></div><!-- end ngRepeat: carouselItem in $ctrl.itens -->
+												<div class="item ng-scope" ng-repeat="carouselItem in $ctrl.itens"
+													ng-class="{active: $first}" style=""><a
+														ui-sref=""
+														href="#">
+														<div back-img="img/m.jpg" class="img-principal"
+															style="background-image: url(&quot;img/m.jpg&quot;);">
+														</div>
+													</a><a
+														ui-sref=""
+														class="carousel-caption white-text" href="#">
+														<div class="title white-text"><span
+																class="thumb-title ng-isolate-scope"
+																ng-tt-chars-threshold="95"
+																ng-text-truncate="carouselItem.titulo">Governador marcos
+																Alexandre nhunga apresentado
+																Na província de malanje. </span></div>
+														<div class="desc white-text"><span
+																class="thumb-title ng-isolate-scope"
+																ng-tt-chars-threshold="60"
+																ng-text-truncate="carouselItem.sumario"><span
+																	class="ng-scope">O MINISTRO DO MAT DIONÍSIO DA
+																	FONSECA, PRESIDIU
+																	O ACTO DE APRESENTAÇÃO E PASSAGEM DE PASTA. ão foi
+																	avançada pelo o
+																	Ministro de Estado para a C<span
+																		ng-show="!open">...</span><span
+																		class="btn-link ngTruncateToggleText"
+																		ng-click="toggleShow()" ng-show="!open">
+																		More</span><span ng-show="open"
+																		class="ng-hide">GABINETE DE COMUNICAÇÃO
+																		INSTITUCIONAL E
+																		IMPRENSA DO MAT, aos 30 de Setembro de 2022<span
+																			class="btn-link ngTruncateToggleText"
+																			ng-click="toggleShow()">
+																			Less</span></span></span></span></div>
+													</a></div><!-- end ngRepeat: carouselItem in $ctrl.itens -->
+												<div class="item ng-scope" ng-repeat="carouselItem in $ctrl.itens"
+													ng-class="{active: $first}" style=""><a ui-sref="" href="">
+														<div back-img="img/c.jpg" class="img-principal"
+															style="background-image: url(&quot;img/c.jpg&quot;);">
+														</div>
+													</a><a ui-sref="" class="carousel-caption white-text" href="#">
+														<div class="title white-text"><span
+																class="thumb-title ng-isolate-scope"
+																ng-tt-chars-threshold="95"
+																ng-text-truncate="carouselItem.titulo">Deolinda ódia
+																Vilarinho foi apresentada
+																Na província da lunda norte</span></div>
+														<div class="desc white-text"><span
+																class="thumb-title ng-isolate-scope"
+																ng-tt-chars-threshold="60"
+																ng-text-truncate="carouselItem.sumario"><span
+																	class="ng-scope">E APELA A UNIDADE DE TODOS EM PROL
+																	DO SEU DESENVOLVIMENTO SOCIOECONÔMICO<span
+																		ng-show="!open">...</span><span
+																		class="btn-link ngTruncateToggleText"
+																		ng-click="toggleShow()" ng-show="!open">
+																		More</span><span ng-show="open" class="ng-hide">
+																		cerimônia de apresentação e passagem de pastas
+																		da nova Governadora
+																		da província da Lunda Norte, Deolinda Ódia
+																		Vilarinho. <span
+																			class="btn-link ngTruncateToggleText"
+																			ng-click="toggleShow()">
+																			Less</span></span></span></span></div>
+													</a></div><!-- end ngRepeat: carouselItem in $ctrl.itens -->
+												<div class="item ng-scope" ng-repeat="carouselItem in $ctrl.itens"
+													ng-class="{active: $first}" style=""><a
+														ui-sref=""
+														href="">
+														<div back-img="img/t.jpg" class="img-principal"
+															style="background-image: url(&quot;img/t.jpg&quot;);">
+														</div>
+													</a><a
+														ui-sref=""
+														class="carousel-caption white-text" href="">
+														<div class="title white-text"><span
+																class="thumb-title ng-isolate-scope"
+																ng-tt-chars-threshold="95"
+																ng-text-truncate="carouselItem.titulo">Administração do
+																território
+																Destaca potencialidades da província do zaire
+															</span>
+														</div>
+														<div class="desc white-text"><span
+																class="thumb-title ng-isolate-scope"
+																ng-tt-chars-threshold="60"
+																ng-text-truncate="carouselItem.sumario"><span
+																	class="ng-scope">E APELA A UNIDADE DE TODOS EM PROL
+																	DO SEU DESENVOLVIMENTO SOCIOECONÔMICO<span
+																		ng-show="!open">...</span><span
+																		class="btn-link ngTruncateToggleText"
+																		ng-click="toggleShow()" ng-show="!open">
+																		More</span><span ng-show="open"
+																		class="ng-hide">O Ministro da Administração do
+																		Território, Dionísio da Fonseca,
+																		apresentou nesta segunda-feira o novo Governador
+																		da província do Zaire, Adriano Mendes de
+																		Carvalho, numa cerimónia dividida em dois
+																		momentos. <span
+																			class="btn-link ngTruncateToggleText"
+																			ng-click="toggleShow()">
+																			Less</span></span></span></span></div>
+													</a></div><!-- end ngRepeat: carouselItem in $ctrl.itens -->
+											</div><!-- Indicators -->
+											<div class="carousel-tabs carousel-indicators">
+												<!-- ngRepeat: carouselItem in $ctrl.itens --><a
+													href="javascript:void(0)" ng-repeat="carouselItem in $ctrl.itens"
+													data-target="#carousel-vertical" data-slide-to="0"
+													ng-class="{active: $first}"
+													class="carousel-thumb-item card ng-scope active" style="">
+													<div class="thumb-img" back-img="img/reuniao.jpg" alt=""
+														style="background-image: url(&quot;img/reuniao.jpg&quot;);">
+													</div><span class="thumb-title ng-isolate-scope"
+														ng-tt-chars-threshold="85"
+														ng-text-truncate="carouselItem.titulo">Ministério da
+														Administração e Território
+														Recebe em Audiência a Direcção do COnselho da Juventude</span>
+												</a><!-- end ngRepeat: carouselItem in $ctrl.itens --><a
+													href="javascript:void(0)" ng-repeat="carouselItem in $ctrl.itens"
+													data-target="#carousel-vertical" data-slide-to="1"
+													ng-class="{active: $first}"
+													class="carousel-thumb-item card ng-scope" style="">
+													<div class="thumb-img" back-img="img/func.jpg" alt=""
+														style="background-image: url(&quot;img/func.jpg&quot;);">
+													</div><span class="thumb-title ng-isolate-scope"
+														ng-tt-chars-threshold="85"
+														ng-text-truncate="carouselItem.titulo">Sindicato de
+														Trabalhadores apresenta
+														Cumprimentos de cortesia ao ministro
+													</span>
+												</a><!-- end ngRepeat: carouselItem in $ctrl.itens --><a
+													href="javascript:void(0)" ng-repeat="carouselItem in $ctrl.itens"
+													data-target="#carousel-vertical" data-slide-to="2"
+													ng-class="{active: $first}"
+													class="carousel-thumb-item card ng-scope" style="">
+													<div class="thumb-img" back-img="img/m.jpg" alt=""
+														style="background-image: url(&quot;img/m.jpg&quot;);">
+													</div><span class="thumb-title ng-isolate-scope"
+														ng-tt-chars-threshold="85"
+														ng-text-truncate="carouselItem.titulo">Governador marcos
+														Alexandre nhunga apresentado
+														Na província de malanje.</span>
+												</a><!-- end ngRepeat: carouselItem in $ctrl.itens --><a
+													href="javascript:void(0)" ng-repeat="carouselItem in $ctrl.itens"
+													data-target="#carousel-vertical" data-slide-to="3"
+													ng-class="{active: $first}"
+													class="carousel-thumb-item card ng-scope" style="">
+													<div class="thumb-img" back-img="img/c.jpg" alt=""
+														style="background-image: url(&quot;img/c.jpg&quot;);">
+													</div><span class="thumb-title ng-isolate-scope"
+														ng-tt-chars-threshold="85"
+														ng-text-truncate="carouselItem.titulo">Deolinda ódia vilarinho
+														Foi apresentada
+														Na província da lunda norte</span>
+												</a><!-- end ngRepeat: carouselItem in $ctrl.itens --><a
+													href="javascript:void(0)" ng-repeat="carouselItem in $ctrl.itens"
+													data-target="#carousel-vertical" data-slide-to="4"
+													ng-class="{active: $first}"
+													class="carousel-thumb-item card ng-scope" style="">
+													<div class="thumb-img" back-img="img/t.jpg" alt=""
+														style="background-image: url(&quot;img/t.jpg&quot;);">
+													</div><span class="thumb-title ng-isolate-scope"
+														ng-tt-chars-threshold="85"
+														ng-text-truncate="carouselItem.titulo">Ministro da administração
+														Do território
+														Destaca potencialidades da província do zaire</span>
+												</a><!-- end ngRepeat: carouselItem in $ctrl.itens -->
+											</div>
+										</div>
+									</carousel-vertical>
+									
+								</div>
+							</div> <br><br>
+							<h4 style="" class="section-title ng-binding">Mais Notícias</h4>
+							<div id="carouselExampleSlidesOnly" class="carousel slide carouselCards-noticias"
+								data-ride="carousel" data-interval="3500">
+								<ol class="carousel-indicators">
+									<!-- ngRepeat: noticia in maisNoticias | limitTo: 5 -->
+									<li data-target="#carouselExampleSlidesOnly"
+										ng-repeat="noticia in maisNoticias | limitTo: 5"
+										ng-class="{&#39;active&#39;: $index === 0}" data-slide-to="0"
+										class="ng-scope active" style=""></li>
+									<!-- end ngRepeat: noticia in maisNoticias | limitTo: 5 -->
+									<li data-target="#carouselExampleSlidesOnly"
+										ng-repeat="noticia in maisNoticias | limitTo: 5"
+										ng-class="{&#39;active&#39;: $index === 0}" data-slide-to="1" class="ng-scope"
+										style=""></li><!-- end ngRepeat: noticia in maisNoticias | limitTo: 5 -->
+									<li data-target="#carouselExampleSlidesOnly"
+										ng-repeat="noticia in maisNoticias | limitTo: 5"
+										ng-class="{&#39;active&#39;: $index === 0}" data-slide-to="2" class="ng-scope">
+									</li><!-- end ngRepeat: noticia in maisNoticias | limitTo: 5 -->
+									<li data-target="#carouselExampleSlidesOnly"
+										ng-repeat="noticia in maisNoticias | limitTo: 5"
+										ng-class="{&#39;active&#39;: $index === 0}" data-slide-to="3" class="ng-scope">
+									</li><!-- end ngRepeat: noticia in maisNoticias | limitTo: 5 -->
+									<li data-target="#carouselExampleSlidesOnly"
+										ng-repeat="noticia in maisNoticias | limitTo: 5"
+										ng-class="{&#39;active&#39;: $index === 0}" data-slide-to="4" class="ng-scope">
+									</li><!-- end ngRepeat: noticia in maisNoticias | limitTo: 5 -->
+								</ol>
+								<div class="carousel-inner">
+									<!-- ngRepeat: noticia in maisNoticias | limitTo:5 -->
+									<div class="item ng-scope active" ng-repeat="noticia in maisNoticias | limitTo:5"
+										ng-class="{&#39;active&#39;: $index === 0}" data-slide-to="0" style="">
+										<!-- ngRepeat: noticia in maisNoticias | limitTo:2:$index -->
+										<div class="col-sm-6 ng-scope"
+											ng-repeat="noticia in maisNoticias | limitTo:2:$index">
+											<div class="row card card-noticias" style="margin: 20px 0 0 0;">
+												<div class="col-sm-12 nopadding mais-noticias-imagem img-responsive"
+													ng-style="{&#39;background-image&#39; : noticia.anexoPortalList[0].anexoPortalItemList[0].url ? &#39;url(img/reuniao.jpg)&#39; : &#39;url(app/main/img/placeholder.png)&#39; }"
+													style="background-image: url(&quot;img/reuniao.jpg&quot;);">
+												</div>
+												<div class="col-sm-12 mais-noticias-card"><a ui-sref="" href="">
+														<h4 ng-tt-chars-threshold="60" ng-text-truncate="noticia.titulo"
+															class="titulo ng-isolate-scope">Ministro Recebe em Audiência
+															o Conselho da Juventude</h4>
+													</a><small class="ng-binding"><i class="fa fa-calendar"></i>
+														06/10/2022 - Por: <span ng-tt-chars-threshold="17"
+															ng-text-truncate="noticia.autor"
+															class="ng-isolate-scope">MAT</span></small><br><span
+														class="sumario ng-isolate-scope" ng-tt-chars-threshold="85"
+														ng-text-truncate="noticia.sumario"><span class="ng-scope">O CNJ
+															é uma plataforma não governamental que
+															congrega várias associações juvenis de cariz político,
+															social e cultural.<span ng-show="!open">...</span><span
+																class="btn-link ngTruncateToggleText"
+																ng-click="toggleShow()" ng-show="!open">
+																More</span><span ng-show="open" class="ng-hide">Por sua
+																vez, Dionísio da Fonseca considerou que os projectos
+																do CNJ contribuem para a promoção da coesão territorial,
+																geram oportunidades de emprego e são
+																indutores do crescimento das localidades. Por isso, o
+																MAT irá trabalhar com os governos provinciais
+																para atenderem o pedido do CNJ.
+																<span class="btn-link ngTruncateToggleText"
+																	ng-click="toggleShow()">
+																	Less</span></span></span></span>
+													<div class="text-left"><a class="block ng-binding" ui-sref=""
+															href="#">Ler
+															mais...</a></div>
+												</div>
+											</div>
+										</div><!-- end ngRepeat: noticia in maisNoticias | limitTo:2:$index -->
+										<div class="col-sm-6 ng-scope"
+											ng-repeat="noticia in maisNoticias | limitTo:2:$index">
+											<div class="row card card-noticias" style="margin: 20px 0 0 0;">
+												<div class="col-sm-12 nopadding mais-noticias-imagem img-responsive"
+													ng-style="{&#39;background-image&#39; : noticia.anexoPortalList[0].anexoPortalItemList[0].url ? &#39;url(img/reuniao.jpg)&#39; : &#39;url(app/main/img/placeholder.png)&#39; }"
+													style="background-image: url(&quot;img/reuniao.jpg&quot;);">
+												</div>
+												<div class="col-sm-12 mais-noticias-card"><a ui-sref="" href="">
+														<h4 ng-tt-chars-threshold="60" ng-text-truncate="noticia.titulo"
+															class="titulo ng-isolate-scope">Ministro Recebe em Audiência
+															o Conselho da Juventude</h4>
+													</a><small class="ng-binding"><i class="fa fa-calendar"></i>
+														06/10/2022 - Por: <span ng-tt-chars-threshold="17"
+															ng-text-truncate="noticia.autor"
+															class="ng-isolate-scope">MAT</span></small><br><span
+														class="sumario ng-isolate-scope" ng-tt-chars-threshold="85"
+														ng-text-truncate="noticia.sumario"><span class="ng-scope">O CNJ
+															é uma plataforma não governamental que
+															congrega várias associações juvenis de cariz político,
+															social e cultural.<span ng-show="!open">...</span><span
+																class="btn-link ngTruncateToggleText"
+																ng-click="toggleShow()" ng-show="!open">
+																More</span><span ng-show="open" class="ng-hide">Por sua
+																vez, Dionísio da Fonseca considerou que os projectos
+																do CNJ contribuem para a promoção da coesão territorial,
+																geram oportunidades de emprego e são
+																indutores do crescimento das localidades. Por isso, o
+																MAT irá trabalhar com os governos provinciais
+																para atenderem o pedido do CNJ.
+																<span class="btn-link ngTruncateToggleText"
+																	ng-click="toggleShow()">
+																	Less</span></span></span></span>
+													<div class="text-left"><a class="block ng-binding" ui-sref=""
+															href="#">Ler
+															mais...</a></div>
+												</div>
+											</div>
+										</div><!-- end ngRepeat: noticia in maisNoticias | limitTo:2:$index -->
+									</div><!-- end ngRepeat: noticia in maisNoticias | limitTo:5 -->
+									<div class="item ng-scope" ng-repeat="noticia in maisNoticias | limitTo:5"
+										ng-class="{&#39;active&#39;: $index === 0}" data-slide-to="1" style="">
+										<!-- ngRepeat: noticia in maisNoticias | limitTo:2:$index -->
+										<div class="col-sm-6 ng-scope"
+											ng-repeat="noticia in maisNoticias | limitTo:2:$index">
+											<div class="row card card-noticias" style="margin: 20px 0 0 0;">
+												<div class="col-sm-12 nopadding mais-noticias-imagem img-responsive"
+													ng-style="{&#39;background-image&#39; : noticia.anexoPortalList[0].anexoPortalItemList[0].url ? &#39;url(img/reuniao.jpg)&#39; : &#39;url(app/main/img/placeholder.png)&#39; }"
+													style="background-image: url(&quot;img/reuniao.jpg&quot;);">
+												</div>
+												<div class="col-sm-12 mais-noticias-card"><a ui-sref="" href="">
+														<h4 ng-tt-chars-threshold="60" ng-text-truncate="noticia.titulo"
+															class="titulo ng-isolate-scope">Ministro Recebe em Audiência
+															o Conselho da Juventude</h4>
+													</a><small class="ng-binding"><i class="fa fa-calendar"></i>
+														06/10/2022 - Por: <span ng-tt-chars-threshold="17"
+															ng-text-truncate="noticia.autor"
+															class="ng-isolate-scope">MAT</span></small><br><span
+														class="sumario ng-isolate-scope" ng-tt-chars-threshold="85"
+														ng-text-truncate="noticia.sumario"><span class="ng-scope">O CNJ
+															é uma plataforma não governamental que
+															congrega várias associações juvenis de cariz político,
+															social e cultural.<span ng-show="!open">...</span><span
+																class="btn-link ngTruncateToggleText"
+																ng-click="toggleShow()" ng-show="!open">
+																More</span><span ng-show="open" class="ng-hide">Por sua
+																vez, Dionísio da Fonseca considerou que os projectos
+																do CNJ contribuem para a promoção da coesão territorial,
+																geram oportunidades de emprego e são
+																indutores do crescimento das localidades. Por isso, o
+																MAT irá trabalhar com os governos provinciais
+																para atenderem o pedido do CNJ.
+																<span class="btn-link ngTruncateToggleText"
+																	ng-click="toggleShow()">
+																	Less</span></span></span></span>
+													<div class="text-left"><a class="block ng-binding" ui-sref=""
+															href="#">Ler
+															mais...</a></div>
+												</div>
+											</div>
+										</div><!-- end ngRepeat: noticia in maisNoticias | limitTo:2:$index -->
+										<div class="col-sm-6 ng-scope"
+											ng-repeat="noticia in maisNoticias | limitTo:2:$index">
+											<div class="row card card-noticias" style="margin: 20px 0 0 0;">
+												<div class="col-sm-12 nopadding mais-noticias-imagem img-responsive"
+													ng-style="{&#39;background-image&#39; : noticia.anexoPortalList[0].anexoPortalItemList[0].url ? &#39;url(img/reuniao.jpg)&#39; : &#39;url(app/main/img/placeholder.png)&#39; }"
+													style="background-image: url(&quot;img/reuniao.jpg&quot;);">
+												</div>
+												<div class="col-sm-12 mais-noticias-card"><a ui-sref="" href="">
+														<h4 ng-tt-chars-threshold="60" ng-text-truncate="noticia.titulo"
+															class="titulo ng-isolate-scope">Ministro Recebe em Audiência
+															o Conselho da Juventude</h4>
+													</a><small class="ng-binding"><i class="fa fa-calendar"></i>
+														06/10/2022 - Por: <span ng-tt-chars-threshold="17"
+															ng-text-truncate="noticia.autor"
+															class="ng-isolate-scope">MAT</span></small><br><span
+														class="sumario ng-isolate-scope" ng-tt-chars-threshold="85"
+														ng-text-truncate="noticia.sumario"><span class="ng-scope">O CNJ
+															é uma plataforma não governamental que
+															congrega várias associações juvenis de cariz político,
+															social e cultural.<span ng-show="!open">...</span><span
+																class="btn-link ngTruncateToggleText"
+																ng-click="toggleShow()" ng-show="!open">
+																More</span><span ng-show="open" class="ng-hide">Por sua
+																vez, Dionísio da Fonseca considerou que os projectos
+																do CNJ contribuem para a promoção da coesão territorial,
+																geram oportunidades de emprego e são
+																indutores do crescimento das localidades. Por isso, o
+																MAT irá trabalhar com os governos provinciais
+																para atenderem o pedido do CNJ.
+																<span class="btn-link ngTruncateToggleText"
+																	ng-click="toggleShow()">
+																	Less</span></span></span></span>
+													<div class="text-left"><a class="block ng-binding" ui-sref=""
+															href="#">Ler
+															mais...</a></div>
+												</div>
+											</div>
+										</div><!-- end ngRepeat: noticia in maisNoticias | limitTo:2:$index -->
+									</div><!-- end ngRepeat: noticia in maisNoticias | limitTo:5 -->
+									<div class="item ng-scope" ng-repeat="noticia in maisNoticias | limitTo:5"
+										ng-class="{&#39;active&#39;: $index === 0}" data-slide-to="2" style="">
+										<!-- ngRepeat: noticia in maisNoticias | limitTo:2:$index -->
+										<div class="col-sm-6 ng-scope"
+											ng-repeat="noticia in maisNoticias | limitTo:2:$index">
+											<div class="row card card-noticias" style="margin: 20px 0 0 0;">
+												<div class="col-sm-12 nopadding mais-noticias-imagem img-responsive"
+													ng-style="{&#39;background-image&#39; : noticia.anexoPortalList[0].anexoPortalItemList[0].url ? &#39;url(img/reuniao.jpg)&#39; : &#39;url(app/main/img/placeholder.png)&#39; }"
+													style="background-image: url(&quot;img/reuniao.jpg&quot;);">
+												</div>
+												<div class="col-sm-12 mais-noticias-card"><a ui-sref="" href="">
+														<h4 ng-tt-chars-threshold="60" ng-text-truncate="noticia.titulo"
+															class="titulo ng-isolate-scope">Ministro Recebe em Audiência
+															o Conselho da Juventude</h4>
+													</a><small class="ng-binding"><i class="fa fa-calendar"></i>
+														06/10/2022 - Por: <span ng-tt-chars-threshold="17"
+															ng-text-truncate="noticia.autor"
+															class="ng-isolate-scope">MAT</span></small><br><span
+														class="sumario ng-isolate-scope" ng-tt-chars-threshold="85"
+														ng-text-truncate="noticia.sumario"><span class="ng-scope">O CNJ
+															é uma plataforma não governamental que
+															congrega várias associações juvenis de cariz político,
+															social e cultural.<span ng-show="!open">...</span><span
+																class="btn-link ngTruncateToggleText"
+																ng-click="toggleShow()" ng-show="!open">
+																More</span><span ng-show="open" class="ng-hide">Por sua
+																vez, Dionísio da Fonseca considerou que os projectos
+																do CNJ contribuem para a promoção da coesão territorial,
+																geram oportunidades de emprego e são
+																indutores do crescimento das localidades. Por isso, o
+																MAT irá trabalhar com os governos provinciais
+																para atenderem o pedido do CNJ.
+																<span class="btn-link ngTruncateToggleText"
+																	ng-click="toggleShow()">
+																	Less</span></span></span></span>
+													<div class="text-left"><a class="block ng-binding" ui-sref=""
+															href="#">Ler
+															mais...</a></div>
+												</div>
+											</div>
+										</div><!-- end ngRepeat: noticia in maisNoticias | limitTo:2:$index -->
+										<div class="col-sm-6 ng-scope"
+											ng-repeat="noticia in maisNoticias | limitTo:2:$index">
+											<div class="row card card-noticias" style="margin: 20px 0 0 0;">
+												<div class="col-sm-12 nopadding mais-noticias-imagem img-responsive"
+													ng-style="{&#39;background-image&#39; : noticia.anexoPortalList[0].anexoPortalItemList[0].url ? &#39;url(img/reuniao.jpg)&#39; : &#39;url(app/main/img/placeholder.png)&#39; }"
+													style="background-image: url(&quot;img/reuniao.jpg&quot;);">
+												</div>
+												<div class="col-sm-12 mais-noticias-card"><a ui-sref="" href="">
+														<h4 ng-tt-chars-threshold="60" ng-text-truncate="noticia.titulo"
+															class="titulo ng-isolate-scope">Ministro Recebe em Audiência
+															o Conselho da Juventude</h4>
+													</a><small class="ng-binding"><i class="fa fa-calendar"></i>
+														06/10/2022 - Por: <span ng-tt-chars-threshold="17"
+															ng-text-truncate="noticia.autor"
+															class="ng-isolate-scope">MAT</span></small><br><span
+														class="sumario ng-isolate-scope" ng-tt-chars-threshold="85"
+														ng-text-truncate="noticia.sumario"><span class="ng-scope">O CNJ
+															é uma plataforma não governamental que
+															congrega várias associações juvenis de cariz político,
+															social e cultural.<span ng-show="!open">...</span><span
+																class="btn-link ngTruncateToggleText"
+																ng-click="toggleShow()" ng-show="!open">
+																More</span><span ng-show="open" class="ng-hide">Por sua
+																vez, Dionísio da Fonseca considerou que os projectos
+																do CNJ contribuem para a promoção da coesão territorial,
+																geram oportunidades de emprego e são
+																indutores do crescimento das localidades. Por isso, o
+																MAT irá trabalhar com os governos provinciais
+																para atenderem o pedido do CNJ.
+																<span class="btn-link ngTruncateToggleText"
+																	ng-click="toggleShow()">
+																	Less</span></span></span></span>
+													<div class="text-left"><a class="block ng-binding" ui-sref=""
+															href="#">Ler
+															mais...</a></div>
+												</div>
+											</div>
+										</div><!-- end ngRepeat: noticia in maisNoticias | limitTo:2:$index -->
+									</div><!-- end ngRepeat: noticia in maisNoticias | limitTo:5 -->
+									<div class="item ng-scope" ng-repeat="noticia in maisNoticias | limitTo:5"
+										ng-class="{&#39;active&#39;: $index === 0}" data-slide-to="3" style="">
+										<!-- ngRepeat: noticia in maisNoticias | limitTo:2:$index -->
+										<div class="col-sm-6 ng-scope"
+											ng-repeat="noticia in maisNoticias | limitTo:2:$index">
+											<div class="row card card-noticias" style="margin: 20px 0 0 0;">
+												<div class="col-sm-12 nopadding mais-noticias-imagem img-responsive"
+													ng-style="{&#39;background-image&#39; : noticia.anexoPortalList[0].anexoPortalItemList[0].url ? &#39;url(img/reuniao.jpg)&#39; : &#39;url(app/main/img/placeholder.png)&#39; }"
+													style="background-image: url(&quot;img/reuniao.jpg&quot;);">
+												</div>
+												<div class="col-sm-12 mais-noticias-card"><a ui-sref="" href="">
+														<h4 ng-tt-chars-threshold="60" ng-text-truncate="noticia.titulo"
+															class="titulo ng-isolate-scope">Ministro Recebe em Audiência
+															o Conselho da Juventude</h4>
+													</a><small class="ng-binding"><i class="fa fa-calendar"></i>
+														06/10/2022 - Por: <span ng-tt-chars-threshold="17"
+															ng-text-truncate="noticia.autor"
+															class="ng-isolate-scope">MAT</span></small><br><span
+														class="sumario ng-isolate-scope" ng-tt-chars-threshold="85"
+														ng-text-truncate="noticia.sumario"><span class="ng-scope">O CNJ
+															é uma plataforma não governamental que
+															congrega várias associações juvenis de cariz político,
+															social e cultural.<span ng-show="!open">...</span><span
+																class="btn-link ngTruncateToggleText"
+																ng-click="toggleShow()" ng-show="!open">
+																More</span><span ng-show="open" class="ng-hide">Por sua
+																vez, Dionísio da Fonseca considerou que os projectos
+																do CNJ contribuem para a promoção da coesão territorial,
+																geram oportunidades de emprego e são
+																indutores do crescimento das localidades. Por isso, o
+																MAT irá trabalhar com os governos provinciais
+																para atenderem o pedido do CNJ.
+																<span class="btn-link ngTruncateToggleText"
+																	ng-click="toggleShow()">
+																	Less</span></span></span></span>
+													<div class="text-left"><a class="block ng-binding" ui-sref=""
+															href="#">Ler
+															mais...</a></div>
+												</div>
+											</div>
+										</div><!-- end ngRepeat: noticia in maisNoticias | limitTo:2:$index -->
+										<div class="col-sm-6 ng-scope"
+											ng-repeat="noticia in maisNoticias | limitTo:2:$index">
+											<div class="row card card-noticias" style="margin: 20px 0 0 0;">
+												<div class="col-sm-12 nopadding mais-noticias-imagem img-responsive"
+													ng-style="{&#39;background-image&#39; : noticia.anexoPortalList[0].anexoPortalItemList[0].url ? &#39;url(img/reuniao.jpg)&#39; : &#39;url(app/main/img/placeholder.png)&#39; }"
+													style="background-image: url(&quot;img/reuniao.jpg&quot;);">
+												</div>
+												<div class="col-sm-12 mais-noticias-card"><a ui-sref="" href="">
+														<h4 ng-tt-chars-threshold="60" ng-text-truncate="noticia.titulo"
+															class="titulo ng-isolate-scope">Ministro Recebe em Audiência
+															o Conselho da Juventude</h4>
+													</a><small class="ng-binding"><i class="fa fa-calendar"></i>
+														06/10/2022 - Por: <span ng-tt-chars-threshold="17"
+															ng-text-truncate="noticia.autor"
+															class="ng-isolate-scope">MAT</span></small><br><span
+														class="sumario ng-isolate-scope" ng-tt-chars-threshold="85"
+														ng-text-truncate="noticia.sumario"><span class="ng-scope">O CNJ
+															é uma plataforma não governamental que
+															congrega várias associações juvenis de cariz político,
+															social e cultural.<span ng-show="!open">...</span><span
+																class="btn-link ngTruncateToggleText"
+																ng-click="toggleShow()" ng-show="!open">
+																More</span><span ng-show="open" class="ng-hide">Por sua
+																vez, Dionísio da Fonseca considerou que os projectos
+																do CNJ contribuem para a promoção da coesão territorial,
+																geram oportunidades de emprego e são
+																indutores do crescimento das localidades. Por isso, o
+																MAT irá trabalhar com os governos provinciais
+																para atenderem o pedido do CNJ.
+																<span class="btn-link ngTruncateToggleText"
+																	ng-click="toggleShow()">
+																	Less</span></span></span></span>
+													<div class="text-left"><a class="block ng-binding" ui-sref=""
+															href="#">Ler
+															mais...</a></div>
+												</div>
+											</div>
+										</div><!-- end ngRepeat: noticia in maisNoticias | limitTo:2:$index -->
+									</div><!-- end ngRepeat: noticia in maisNoticias | limitTo:5 -->
+									<div class="item ng-scope" ng-repeat="noticia in maisNoticias | limitTo:5"
+										ng-class="{&#39;active&#39;: $index === 0}" data-slide-to="4" style="">
+										<!-- ngRepeat: noticia in maisNoticias | limitTo:2:$index -->
+										<div class="col-sm-6 ng-scope"
+											ng-repeat="noticia in maisNoticias | limitTo:2:$index">
+											<div class="row card card-noticias" style="margin: 20px 0 0 0;">
+												<div class="col-sm-12 nopadding mais-noticias-imagem img-responsive"
+													ng-style="{&#39;background-image&#39; : noticia.anexoPortalList[0].anexoPortalItemList[0].url ? &#39;url(img/reuniao.jpg)&#39; : &#39;url(app/main/img/placeholder.png)&#39; }"
+													style="background-image: url(&quot;img/reuniao.jpg&quot;);">
+												</div>
+												<div class="col-sm-12 mais-noticias-card"><a ui-sref="" href="">
+														<h4 ng-tt-chars-threshold="60" ng-text-truncate="noticia.titulo"
+															class="titulo ng-isolate-scope">Ministro Recebe em Audiência
+															o Conselho da Juventude</h4>
+													</a><small class="ng-binding"><i class="fa fa-calendar"></i>
+														06/10/2022 - Por: <span ng-tt-chars-threshold="17"
+															ng-text-truncate="noticia.autor"
+															class="ng-isolate-scope">MAT</span></small><br><span
+														class="sumario ng-isolate-scope" ng-tt-chars-threshold="85"
+														ng-text-truncate="noticia.sumario"><span class="ng-scope">O CNJ
+															é uma plataforma não governamental que
+															congrega várias associações juvenis de cariz político,
+															social e cultural.<span ng-show="!open">...</span><span
+																class="btn-link ngTruncateToggleText"
+																ng-click="toggleShow()" ng-show="!open">
+																More</span><span ng-show="open" class="ng-hide">Por sua
+																vez, Dionísio da Fonseca considerou que os projectos
+																do CNJ contribuem para a promoção da coesão territorial,
+																geram oportunidades de emprego e são
+																indutores do crescimento das localidades. Por isso, o
+																MAT irá trabalhar com os governos provinciais
+																para atenderem o pedido do CNJ.
+																<span class="btn-link ngTruncateToggleText"
+																	ng-click="toggleShow()">
+																	Less</span></span></span></span>
+													<div class="text-left"><a class="block ng-binding" ui-sref=""
+															href="#">Ler
+															mais...</a></div>
+												</div>
+											</div>
+										</div><!-- end ngRepeat: noticia in maisNoticias | limitTo:2:$index -->
+										<div class="col-sm-6 ng-scope"
+											ng-repeat="noticia in maisNoticias | limitTo:2:$index">
+											<div class="row card card-noticias" style="margin: 20px 0 0 0;">
+												<div class="col-sm-12 nopadding mais-noticias-imagem img-responsive"
+													ng-style="{&#39;background-image&#39; : noticia.anexoPortalList[0].anexoPortalItemList[0].url ? &#39;url(img/reuniao.jpg)&#39; : &#39;url(app/main/img/placeholder.png)&#39; }"
+													style="background-image: url(&quot;img/reuniao.jpg&quot;);">
+												</div>
+												<div class="col-sm-12 mais-noticias-card"><a ui-sref="" href="">
+														<h4 ng-tt-chars-threshold="60" ng-text-truncate="noticia.titulo"
+															class="titulo ng-isolate-scope">Ministro Recebe em Audiência
+															o Conselho da Juventude</h4>
+													</a><small class="ng-binding"><i class="fa fa-calendar"></i>
+														06/10/2022 - Por: <span ng-tt-chars-threshold="17"
+															ng-text-truncate="noticia.autor"
+															class="ng-isolate-scope">MAT</span></small><br><span
+														class="sumario ng-isolate-scope" ng-tt-chars-threshold="85"
+														ng-text-truncate="noticia.sumario"><span class="ng-scope">O CNJ
+															é uma plataforma não governamental que
+															congrega várias associações juvenis de cariz político,
+															social e cultural.<span ng-show="!open">...</span><span
+																class="btn-link ngTruncateToggleText"
+																ng-click="toggleShow()" ng-show="!open">
+																More</span><span ng-show="open" class="ng-hide">Por sua
+																vez, Dionísio da Fonseca considerou que os projectos
+																do CNJ contribuem para a promoção da coesão territorial,
+																geram oportunidades de emprego e são
+																indutores do crescimento das localidades. Por isso, o
+																MAT irá trabalhar com os governos provinciais
+																para atenderem o pedido do CNJ.
+																<span class="btn-link ngTruncateToggleText"
+																	ng-click="toggleShow()">
+																	Less</span></span></span></span>
+													<div class="text-left"><a class="block ng-binding" ui-sref=""
+															href="#">Ler
+															mais...</a></div>
+												</div>
+											</div>
+										</div><!-- end ngRepeat: noticia in maisNoticias | limitTo:2:$index -->
+									</div><!-- end ngRepeat: noticia in maisNoticias | limitTo:5 -->
+								</div>
+							</div>
+							<div id="carouselExampleSlidesOnlyMobile" class="carousel slide carouselCards-noticias"
+								data-ride="carousel" data-interval="3500">
+								<ol class="carousel-indicators">
+									<!-- ngRepeat: noticia in maisNoticias | limitTo: 5 -->
+									<li data-target="#carouselExampleSlidesOnlyMobile"
+										ng-repeat="noticia in maisNoticias | limitTo: 5"
+										ng-class="{&#39;active&#39;: $index === 0}" data-slide-to="0"
+										class="ng-scope active" style=""></li>
+									<!-- end ngRepeat: noticia in maisNoticias | limitTo: 5 -->
+									<li data-target="#carouselExampleSlidesOnlyMobile"
+										ng-repeat="noticia in maisNoticias | limitTo: 5"
+										ng-class="{&#39;active&#39;: $index === 0}" data-slide-to="1" class="ng-scope"
+										style=""></li><!-- end ngRepeat: noticia in maisNoticias | limitTo: 5 -->
+									<li data-target="#carouselExampleSlidesOnlyMobile"
+										ng-repeat="noticia in maisNoticias | limitTo: 5"
+										ng-class="{&#39;active&#39;: $index === 0}" data-slide-to="2" class="ng-scope">
+									</li><!-- end ngRepeat: noticia in maisNoticias | limitTo: 5 -->
+									<li data-target="#carouselExampleSlidesOnlyMobile"
+										ng-repeat="noticia in maisNoticias | limitTo: 5"
+										ng-class="{&#39;active&#39;: $index === 0}" data-slide-to="3" class="ng-scope">
+									</li><!-- end ngRepeat: noticia in maisNoticias | limitTo: 5 -->
+									<li data-target="#carouselExampleSlidesOnlyMobile"
+										ng-repeat="noticia in maisNoticias | limitTo: 5"
+										ng-class="{&#39;active&#39;: $index === 0}" data-slide-to="4" class="ng-scope">
+									</li><!-- end ngRepeat: noticia in maisNoticias | limitTo: 5 -->
+								</ol>
+
+							</div>
+
+							<div class="row" style="margin: 0 0 20px 0;">
+								<div class="col-sm-12 text-right footer-content-home"
+									style="background: #fff; border: none;"><a ui-sref="sala-de-imprensa.noticias"
+										class="ng-binding" href="#">Ver
+										Todas&nbsp; <i class="fa fa-chevron-right"></i></a></div>
+							</div>
+						</div>
+						<div class="col-md-3 nopadding">
+							<!-- ngIf: menuEspecial -->
+							<div ng-if="menuEspecial" id="contadoriva" class="focusShadow ng-scope">
+								<h4 class="section-title-destaque">INFORMATIVO</h4>
+							</div><!-- end ngIf: menuEspecial -->
+						</div>
+						<div class="col-sm-3">
+							<!--  banner principal -->
+							<div class="row margin-bottom-20">
+								<div class="col-md-12 col-sm-12 margin-bottom-20" style="padding: 0;">
+									<div id="carousselInformativo" class="carousel box-slide slide carousel-header"
+										data-ride="carousel" data-interval="3500">
+										<ol class="indicators-inform carousel-indicators">
+											<!-- ngRepeat: informativo in informativos | limitTo:5 -->
+											<li data-target="#carousselInformativo" data-slide-to="0"
+												ng-class="{&#39;active&#39;: $index === 0}"
+												ng-repeat="informativo in informativos | limitTo:5"
+												class="ng-scope active" style=""></li>
+											<!-- end ngRepeat: informativo in informativos | limitTo:5 -->
+											<li data-target="#carousselInformativo" data-slide-to="1"
+												ng-class="{&#39;active&#39;: $index === 0}"
+												ng-repeat="informativo in informativos | limitTo:5" class="ng-scope"
+												style=""></li>
+											<!-- end ngRepeat: informativo in informativos | limitTo:5 -->
+											<li data-target="#carousselInformativo" data-slide-to="2"
+												ng-class="{&#39;active&#39;: $index === 0}"
+												ng-repeat="informativo in informativos | limitTo:5" class="ng-scope">
+											</li><!-- end ngRepeat: informativo in informativos | limitTo:5 -->
+											<li data-target="#carousselInformativo" data-slide-to="3"
+												ng-class="{&#39;active&#39;: $index === 0}"
+												ng-repeat="informativo in informativos | limitTo:5" class="ng-scope">
+											</li><!-- end ngRepeat: informativo in informativos | limitTo:5 -->
+											<li data-target="#carousselInformativo" data-slide-to="4"
+												ng-class="{&#39;active&#39;: $index === 0}"
+												ng-repeat="informativo in informativos | limitTo:5" class="ng-scope">
+											</li><!-- end ngRepeat: informativo in informativos | limitTo:5 -->
+										</ol><!-- Wrapper for slides -->
+										<div class="carousel-inner">
+											<!-- ngRepeat: informativo in informativos | limitTo:5 -->
+											<div class="item ng-scope active" ng-class="{&#39;active&#39;: $index == 0}"
+												ng-repeat="informativo in informativos | limitTo:5" style="">
+												<!-- Static Header --> <a href="#"><img src="img/comissao.jpg"
+														class="img-infom" alt=""></a>
+											</div><!-- end ngRepeat: informativo in informativos | limitTo:5 -->
+											<div class="item ng-scope" ng-class="{&#39;active&#39;: $index == 0}"
+												ng-repeat="informativo in informativos | limitTo:5" style="">
+												<!-- Static Header --> <a href="#"><img src="img/participativo.png"
+														class="img-infom" alt=""></a>
+											</div><!-- end ngRepeat: informativo in informativos | limitTo:5 -->
+											<div class="item ng-scope" ng-class="{&#39;active&#39;: $index == 0}"
+												ng-repeat="informativo in informativos | limitTo:5" style="">
+												<!-- Static Header --> <a href="#"><img src="img/participativo.png"
+														class="img-infom" alt=""></a>
+											</div><!-- end ngRepeat: informativo in informativos | limitTo:5 -->
+											<div class="item ng-scope" ng-class="{&#39;active&#39;: $index == 0}"
+												ng-repeat="informativo in informativos | limitTo:5" style="">
+												<!-- Static Header --> <a href="#"><img src="img/participativo.png"
+														class="img-infom" alt=""></a>
+											</div><!-- end ngRepeat: informativo in informativos | limitTo:5 -->
+											<div class="item ng-scope" ng-class="{&#39;active&#39;: $index == 0}"
+												ng-repeat="informativo in informativos | limitTo:5" style="">
+												<!-- Static Header --> <a href="#"><img src="img/participativo.png"
+														class="img-infom" alt=""></a>
+											</div><!-- end ngRepeat: informativo in informativos | limitTo:5 -->
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row" style="margin: 0 0 20px 0;">
+								<!--<div class="col-sm-12 text-right footer-content-home footer-content-home-inform"
+									style="background: #fff; border: none;"><a ui-sref="informativo">Ver Todos
+										Informativos &nbsp; <i class="fa fa-chevron-right"></i></a></div>-->
+							</div>
+
+							<!-- fim  banner -->
+
+							<div class="focusShadow margin-top-5" style="padding-top: 34px;">
+								<h4 class="section-title ng-binding">Matérias de Realce</h4>
+								<ul class="list-group minfin-list-group">
+
+									<li ng-repeat="link in menuMateriasRealce" ng-if="link.flAtivo == &#39;S&#39;"
+										class="list-group-item ng-scope"><a check-href="#" class="ng-binding"
+											href="">Kwenda</a></li>
+									<li ng-repeat="link in menuMateriasRealce" ng-if="link.flAtivo == &#39;S&#39;"
+										class="list-group-item ng-scope"><a check-href="#" class="ng-binding"
+											href="">Comissão de Moradores</a></li>
+
+									<li ng-repeat="link in menuMateriasRealce" ng-if="link.flAtivo == &#39;S&#39;"
+										class="list-group-item ng-scope"><a check-href="#" class="ng-binding"
+											href="">Orçamento
+											Participativo</a></li>
+									<li ng-repeat="link in menuMateriasRealce" ng-if="link.flAtivo == &#39;S&#39;"
+										class="list-group-item ng-scope"><a check-href="#" class="ng-binding"
+											href="#">Orçamento
+											Participativo</a></li>
+									<li ng-repeat="link in menuMateriasRealce" ng-if="link.flAtivo == &#39;S&#39;"
+										class="list-group-item ng-scope"><a check-href="#" class="ng-binding"
+											href="">Divisão Politica Administrativa</a></li>
+									<li ng-repeat="link in menuMateriasRealce" ng-if="link.flAtivo == &#39;S&#39;"
+										class="list-group-item ng-scope"><a check-href="#" class="ng-binding"
+											href="">Comissão de Moradores</a></li>
+									<li ng-repeat="link in menuMateriasRealce" ng-if="link.flAtivo == &#39;S&#39;"
+										class="list-group-item ng-scope"><a check-href="#" class="ng-binding"
+											href="">Comissão de Moradores</a></li>
+									<li ng-repeat="link in menuMateriasRealce" ng-if="link.flAtivo == &#39;S&#39;"
+										class="list-group-item ng-scope"><a check-href="#" class="ng-binding"
+											href="">Comissão de Moradores</a></li>
+									<li ng-repeat="link in menuMateriasRealce" ng-if="link.flAtivo == &#39;S&#39;"
+										class="list-group-item ng-scope"><a check-href="#" class="ng-binding"
+											href="">Comissão de Moradores</a></li>
+									<li ng-repeat="link in menuMateriasRealce" ng-if="link.flAtivo == &#39;S&#39;"
+										class="list-group-item ng-scope"><a check-href="#" class="ng-binding"
+											href="">Comissão de Moradores</a></li>
+									<li ng-repeat="link in menuMateriasRealce" ng-if="link.flAtivo == &#39;S&#39;"
+										class="list-group-item ng-scope"><a check-href="#" class="ng-binding"
+											href="">Comissão de Moradores</a></li>
+									<li ng-repeat="link in menuMateriasRealce" ng-if="link.flAtivo == &#39;S&#39;"
+										class="list-group-item ng-scope"><a check-href="#" class="ng-binding"
+											href="">Comissão de Moradores</a></li>
+									<li ng-repeat="link in menuMateriasRealce" ng-if="link.flAtivo == &#39;S&#39;"
+										class="list-group-item ng-scope"><a check-href="#" class="ng-binding"
+											href="">Comissão de Moradores</a></li><!-- end ngIf: link.flAtivo == 'S' -->
+
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-12 margin-top-20 margin-bottom-10">
+						<h4 class="section-title ng-binding">Dados Públicos</h4>
+					</div>
+					<div id="carouselFinancasPublicas" class="carousel slide carouselCards-noticias"
+						data-ride="carousel" data-interval="3500">
+						<ol class="carousel-indicators">
+							<!-- ngRepeat: link in menuFinancasPublicas | limitTo: 5 -->
+							<li data-target="#carouselFinancasPublicas"
+								ng-repeat="link in menuFinancasPublicas | limitTo: 5"
+								ng-class="{&#39;active&#39;: $index === 0}" data-slide-to="0" class="ng-scope active">
+							</li><!-- end ngRepeat: link in menuFinancasPublicas | limitTo: 5 -->
+							<li data-target="#carouselFinancasPublicas"
+								ng-repeat="link in menuFinancasPublicas | limitTo: 5"
+								ng-class="{&#39;active&#39;: $index === 0}" data-slide-to="1" class="ng-scope"></li>
+							<!-- end ngRepeat: link in menuFinancasPublicas | limitTo: 5 -->
+							<li data-target="#carouselFinancasPublicas"
+								ng-repeat="link in menuFinancasPublicas | limitTo: 5"
+								ng-class="{&#39;active&#39;: $index === 0}" data-slide-to="2" class="ng-scope"></li>
+							<!-- end ngRepeat: link in menuFinancasPublicas | limitTo: 5 -->
+							<li data-target="#carouselFinancasPublicas"
+								ng-repeat="link in menuFinancasPublicas | limitTo: 5"
+								ng-class="{&#39;active&#39;: $index === 0}" data-slide-to="3" class="ng-scope"></li>
+							<!-- end ngRepeat: link in menuFinancasPublicas | limitTo: 5 -->
+							<li data-target="#carouselFinancasPublicas"
+								ng-repeat="link in menuFinancasPublicas | limitTo: 5"
+								ng-class="{&#39;active&#39;: $index === 0}" data-slide-to="4" class="ng-scope"></li>
+							<!-- end ngRepeat: link in menuFinancasPublicas | limitTo: 5 -->
+						</ol>
+						<div class="carousel-inner">
+							<!-- ngRepeat: link in menuFinancasPublicas -->
+							<div class="item container-flex ng-scope active" ng-repeat="link in menuFinancasPublicas"
+								ng-class="{&#39;active&#39;: $index === 0}" data-slide-to="0">
+								<!-- ngRepeat: link in menuFinancasPublicas | limitTo:4:$index -->
+								<div class="col-md-3 container-flex__column ng-scope"
+									ng-repeat="link in menuFinancasPublicas | limitTo:4:$index"><a check-href=""
+										href="#">
+										<div class="circulo"><img ng-src="img/bank.png" class="img-responsive"
+												src="img/bank.png"></div>
+										<h4 class="container-flex__column__text ng-binding">Grandes Números</h4>
+									</a></div><!-- end ngRepeat: link in menuFinancasPublicas | limitTo:4:$index -->
+								<div class="col-md-3 container-flex__column ng-scope"
+									ng-repeat="link in menuFinancasPublicas | limitTo:4:$index"><a check-href=""
+										href="#">
+										<div class="circulo"><img ng-src="img/money-bag.png" class="img-responsive"
+												src="img/money-bag.png"></div>
+										<h4 class="container-flex__column__text ng-binding">Guia Prático</h4>
+									</a></div><!-- end ngRepeat: link in menuFinancasPublicas | limitTo:4:$index -->
+								<div class="col-md-3 container-flex__column ng-scope"
+									ng-repeat="link in menuFinancasPublicas | limitTo:4:$index"><a check-href=""
+										href="">
+										<div class="circulo"><img ng-src="img/team.png" class="img-responsive"
+												src="img/team.png"></div>
+										<h4 class="container-flex__column__text ng-binding">Legislação e Documentos</h4>
+									</a></div><!-- end ngRepeat: link in menuFinancasPublicas | limitTo:4:$index -->
+								<div class="col-md-3 container-flex__column ng-scope"
+									ng-repeat="link in menuFinancasPublicas | limitTo:4:$index"><a check-href=""
+										href="">
+										<div class="circulo"><img ng-src="img/bullhorn.png" class="img-responsive"
+												src="img/bullhorn.png"></div>
+										<h4 class="container-flex__column__text ng-binding">Anúncios</h4>
+									</a></div><!-- end ngRepeat: link in menuFinancasPublicas | limitTo:4:$index -->
+							</div><!-- end ngRepeat: link in menuFinancasPublicas -->
+							<div class="item container-flex ng-scope" ng-repeat="link in menuFinancasPublicas"
+								ng-class="{&#39;active&#39;: $index === 0}" data-slide-to="1">
+								<!-- ngRepeat: link in menuFinancasPublicas | limitTo:4:$index -->
+								<div class="col-md-3 container-flex__column ng-scope"
+									ng-repeat="link in menuFinancasPublicas | limitTo:4:$index"><a check-href=""
+										href="#">
+										<div class="circulo"><img ng-src="img/bank.png" class="img-responsive"
+												src="img/bank.png"></div>
+										<h4 class="container-flex__column__text ng-binding">Grandes Números</h4>
+									</a></div><!-- end ngRepeat: link in menuFinancasPublicas | limitTo:4:$index -->
+								<div class="col-md-3 container-flex__column ng-scope"
+									ng-repeat="link in menuFinancasPublicas | limitTo:4:$index"><a check-href=""
+										href="">
+										<div class="circulo"><img ng-src="img/team.png" class="img-responsive"
+												src="img/team.png"></div>
+										<h4 class="container-flex__column__text ng-binding">Legislação e Documentos</h4>
+									</a></div><!-- end ngRepeat: link in menuFinancasPublicas | limitTo:4:$index -->
+								<div class="col-md-3 container-flex__column ng-scope"
+									ng-repeat="link in menuFinancasPublicas | limitTo:4:$index"><a check-href=""
+										href="#">
+										<div class="circulo"><img ng-src="img/money-bag.png" class="img-responsive"
+												src="img/money-bag.png"></div>
+										<h4 class="container-flex__column__text ng-binding">Guia Prático</h4>
+									</a></div><!-- end ngRepeat: link in menuFinancasPublicas | limitTo:4:$index -->
+								<div class="col-md-3 container-flex__column ng-scope"
+									ng-repeat="link in menuFinancasPublicas | limitTo:4:$index"><a check-href=""
+										href="#">
+										<div class="circulo"><img ng-src="img/bank.png" class="img-responsive"
+												src="img/bank.png"></div>
+										<h4 class="container-flex__column__text ng-binding">Grandes Números</h4>
+									</a></div><!-- end ngRepeat: link in menuFinancasPublicas | limitTo:4:$index -->
+							</div><!-- end ngRepeat: link in menuFinancasPublicas -->
+							<div class="item container-flex ng-scope" ng-repeat="link in menuFinancasPublicas"
+								ng-class="{&#39;active&#39;: $index === 0}" data-slide-to="2">
+								<!-- ngRepeat: link in menuFinancasPublicas | limitTo:4:$index -->
+								<div class="col-md-3 container-flex__column ng-scope"
+									ng-repeat="link in menuFinancasPublicas | limitTo:4:$index"><a check-href=""
+										href="#">
+										<div class="circulo"><img ng-src="img/bank.png" class="img-responsive"
+												src="img/bank.png"></div>
+										<h4 class="container-flex__column__text ng-binding">Grandes Números</h4>
+									</a></div><!-- end ngRepeat: link in menuFinancasPublicas | limitTo:4:$index -->
+								<div class="col-md-3 container-flex__column ng-scope"
+									ng-repeat="link in menuFinancasPublicas | limitTo:4:$index"><a check-href=""
+										href="#">
+										<div class="circulo"><img ng-src="img/bank.png" class="img-responsive"
+												src="img/bank.png"></div>
+										<h4 class="container-flex__column__text ng-binding">Grandes Números</h4>
+									</a></div><!-- end ngRepeat: link in menuFinancasPublicas | limitTo:4:$index -->
+								<div class="col-md-3 container-flex__column ng-scope"
+									ng-repeat="link in menuFinancasPublicas | limitTo:4:$index"><a check-href=""
+										href="#">
+										<div class="circulo"><img ng-src="img/bank.png" class="img-responsive"
+												src="img/bank.png"></div>
+										<h4 class="container-flex__column__text ng-binding">Grandes Números</h4>
+									</a></div><!-- end ngRepeat: link in menuFinancasPublicas | limitTo:4:$index -->
+							</div><!-- end ngRepeat: link in menuFinancasPublicas -->
+							<div class="item container-flex ng-scope" ng-repeat="link in menuFinancasPublicas"
+								ng-class="{&#39;active&#39;: $index === 0}" data-slide-to="3">
+								<!-- ngRepeat: link in menuFinancasPublicas | limitTo:4:$index -->
+								<div class="col-md-3 container-flex__column ng-scope"
+									ng-repeat="link in menuFinancasPublicas | limitTo:4:$index"><a check-href=""
+										href="#">
+										<div class="circulo"><img ng-src="img/bank.png" class="img-responsive"
+												src="img/bank.png"></div>
+										<h4 class="container-flex__column__text ng-binding">Grandes Números</h4>
+									</a></div><!-- end ngRepeat: link in menuFinancasPublicas | limitTo:4:$index -->
+								<div class="col-md-3 container-flex__column ng-scope"
+									ng-repeat="link in menuFinancasPublicas | limitTo:4:$index"><a check-href=""
+										href="#">
+										<div class="circulo"><img ng-src="img/bank.png" class="img-responsive"
+												src="img/bank.png"></div>
+										<h4 class="container-flex__column__text ng-binding">Grandes Números</h4>
+									</a></div><!-- end ngRepeat: link in menuFinancasPublicas | limitTo:4:$index -->
+							</div><!-- end ngRepeat: link in menuFinancasPublicas -->
+							<div class="item container-flex ng-scope" ng-repeat="link in menuFinancasPublicas"
+								ng-class="{&#39;active&#39;: $index === 0}" data-slide-to="4">
+								<!-- ngRepeat: link in menuFinancasPublicas | limitTo:4:$index -->
+								<div class="col-md-3 container-flex__column ng-scope"
+									ng-repeat="link in menuFinancasPublicas | limitTo:4:$index"><a check-href=""
+										href="#">
+										<div class="circulo"><img ng-src="img/bank.png" class="img-responsive"
+												src="img/bank.png"></div>
+										<h4 class="container-flex__column__text ng-binding">Grandes Números</h4>
+									</a></div><!-- end ngRepeat: link in menuFinancasPublicas | limitTo:4:$index -->
+							</div><!-- end ngRepeat: link in menuFinancasPublicas -->
+						</div>
+					</div>
+					<div id="carouselFinancasPublicasMobile" class="carousel slide carouselCards-noticias"
+						data-ride="carousel" data-interval="3500">
+						<ol class="carousel-indicators">
+							<!-- ngRepeat: link in menuFinancasPublicas | limitTo: 5 -->
+							<li data-target="#carouselFinancasPublicasMobile"
+								ng-repeat="link in menuFinancasPublicas | limitTo: 5"
+								ng-class="{&#39;active&#39;: $index === 0}" data-slide-to="0" class="ng-scope active">
+							</li><!-- end ngRepeat: link in menuFinancasPublicas | limitTo: 5 -->
+							<li data-target="#carouselFinancasPublicasMobile"
+								ng-repeat="link in menuFinancasPublicas | limitTo: 5"
+								ng-class="{&#39;active&#39;: $index === 0}" data-slide-to="1" class="ng-scope"></li>
+							<!-- end ngRepeat: link in menuFinancasPublicas | limitTo: 5 -->
+							<li data-target="#carouselFinancasPublicasMobile"
+								ng-repeat="link in menuFinancasPublicas | limitTo: 5"
+								ng-class="{&#39;active&#39;: $index === 0}" data-slide-to="2" class="ng-scope"></li>
+							<!-- end ngRepeat: link in menuFinancasPublicas | limitTo: 5 -->
+							<li data-target="#carouselFinancasPublicasMobile"
+								ng-repeat="link in menuFinancasPublicas | limitTo: 5"
+								ng-class="{&#39;active&#39;: $index === 0}" data-slide-to="3" class="ng-scope"></li>
+							<!-- end ngRepeat: link in menuFinancasPublicas | limitTo: 5 -->
+							<li data-target="#carouselFinancasPublicasMobile"
+								ng-repeat="link in menuFinancasPublicas | limitTo: 5"
+								ng-class="{&#39;active&#39;: $index === 0}" data-slide-to="4" class="ng-scope"></li>
+							<!-- end ngRepeat: link in menuFinancasPublicas | limitTo: 5 -->
+						</ol>
+
+					</div>
+
+
+				</div>
+			</div>
+			<script class="ng-scope">var deviceWidth = $(window).width();
+				if (deviceWidth == 320) {
+					var lista1 = document.querySelector(".mobile-width");
+					lista1.classList.add("mobile-width-320");
+				} else if (deviceWidth == 375) {
+					var lista1 = document.querySelector(".mobile-width");
+					lista1.classList.add("mobile-width-375");
+
+				} else if (deviceWidth == 425) {
+					var lista1 = document.querySelector(".mobile-width");
+					lista1.classList.add("mobile-width-425");
+				}</script>
+		</ui-view><!-- Back to top button --> <a id="button-voltar-topo" class="show"></a>
+		<custom-footer menuarray="menu" contactos="contactos" class="ng-isolate-scope">
+			<div class="container-fluid hidden-print">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 logo margin-bottom-top-30">
+							<div class="margin-top-20">
+								<div><img ng-src="img.png" style="width: 100%;" src="img.png"></div>
+								<div class="contato-footer">
+									<ul>
+										<li><strong class="ng-binding"><i
+													class="fa fa-envelope margin-right-5"></i>E-mails</strong></li>
+
+										<li class="margin-bottom-5 ng-scope" ng-repeat="exe.mat@mat.gov.ao" style=""><a
+												style="color:#333;" ng-href="exe.mat@mat.gov.ao" class="ng-binding"
+												href="exe.mat@mat.gov.ao">exe.mat@mat.gov.ao</a></li>
+
+										<li><strong class="ng-binding"><i
+													class="fa fa-phone margin-right-5"></i>Informações</strong></li>
+
+										<li class="margin-bottom-5 ng-binding ng-scope"
+											ng-repeat="telefone in $root.contactos.telefone" style="">+(244) - 938
+											690 039</li>
+									</ul>
+
+								</div>
+							</div>
+						</div>
+						<div ng-class="{&#39;col-md-6&#39;: idioma === &#39;PT&#39;, &#39;col-md-9&#39;: idioma !== &#39;PT&#39;} "
+							class="marterial margin-bottom-top-30 col-md-9">
+							<h2 class="section-internal-title ng-binding"
+								style="color:rgb(104, 104, 104);margin-top: 52px;">Links Rápidos</h2>
+							<div class="row">
+
+
+								<div ng-repeat="itemMenu in $root.menu | limitTo: 11"
+									ng-if="itemMenu.flAtivo ==&#39;S&#39;" class="col-sm-4 ng-scope">
+									<div style="border-bottom:1px solid rgb(207, 207, 207);padding-bottom:5px;margin-top:20px;width: 100%;color:rgb(78, 78, 78);"
+										class="block"><a ui-sref="" href="#"><b class="ng-binding">Documentos</b></a>
+									</div>
+									<ul class="block margin-top-10">
+
+										<li ng-repeat="subItem in itemMenu.subPaginas | limitTo: 7"
+											ng-if="subItem.flAtivo == &#39;S&#39;" class="ng-scope"><a ui-sref=""
+												class="ng-binding" href="#">-
+												Estatuto</a></li>
+										<li ng-repeat="subItem in itemMenu.subPaginas | limitTo: 7"
+											ng-if="subItem.flAtivo == &#39;S&#39;" class="ng-scope"><a ui-sref=""
+												class="ng-binding" href="">-
+												Estatuto</a></li>
+										<li ng-repeat="subItem in itemMenu.subPaginas | limitTo: 7"
+											ng-if="subItem.flAtivo == &#39;S&#39;" class="ng-scope"><a ui-sref=""
+												class="ng-binding" href="">
+
+									</ul>
+								</div>
+
+								<div ng-repeat="itemMenu in $root.menu | limitTo: 11"
+									ng-if="itemMenu.flAtivo ==&#39;S&#39;" class="col-sm-4 ng-scope">
+									<div style="border-bottom:1px solid rgb(207, 207, 207);padding-bottom:5px;margin-top:20px;width: 100%;color:rgb(78, 78, 78);"
+										class="block"><a ui-sref="" href=""><b class="ng-binding">Documentos</b></a>
+									</div>
+									<ul class="block margin-top-10">
+
+										<li ng-repeat="subItem in itemMenu.subPaginas | limitTo: 7"
+											ng-if="subItem.flAtivo == &#39;S&#39;" class="ng-scope"><a ui-sref=""
+												class="ng-binding" href="">-
+												Estatuto</a></li>
+										<li ng-repeat="subItem in itemMenu.subPaginas | limitTo: 7"
+											ng-if="subItem.flAtivo == &#39;S&#39;" class="ng-scope"><a ui-sref=""
+												class="ng-binding" href="">-
+												Estatísticas</a></li>
+										<li ng-repeat="subItem in itemMenu.subPaginas | limitTo: 7"
+											ng-if="subItem.flAtivo == &#39;S&#39;" class="ng-scope"><a ui-sref=""
+												class="ng-binding" href="">-
+
+									</ul>
+								</div>
+
+								<div ng-repeat="itemMenu in $root.menu | limitTo: 11"
+									ng-if="itemMenu.flAtivo ==&#39;S&#39;" class="col-sm-4 ng-scope">
+									<div style="border-bottom:1px solid rgb(207, 207, 207);padding-bottom:5px;margin-top:20px;width: 100%;color:rgb(78, 78, 78);"
+										class="block"><a ui-sref="portais-servicos"
+											href="https://www.minfin.gov.ao/PortalMinfin/#!/portais-servicos"><b
+												class="ng-binding">PORTAIS</b></a></div>
+									<ul class="block margin-top-10">
+
+										<li ng-repeat="subItem in itemMenu.subPaginas | limitTo: 7"
+											ng-if="subItem.flAtivo == &#39;S&#39;" class="ng-scope"><a ui-sref=""
+												class="ng-binding" href="">
+												Orçamento Participativo</a></li>
+
+										<li ng-repeat="subItem in itemMenu.subPaginas | limitTo: 7"
+											ng-if="subItem.flAtivo == &#39;S&#39;" class="ng-scope"><a ui-sref=""
+												class="ng-binding" href="">-
+												CMS</a></li>
+										<li ng-repeat="subItem in itemMenu.subPaginas | limitTo: 7"
+											ng-if="subItem.flAtivo == &#39;S&#39;" class="ng-scope"><a ui-sref=""
+												class="ng-binding" href="">-
+												Kwenda</a></li>
+									</ul>
+								</div>
+
+
+
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<!-- <div class=" hidden-print linha-cinza-1" id="footer-version" ng-controller="UtilizadorController">
+	&copy; {{ 'MAT' | translate }} {{ $ctrl.dataAtual.agora | amDateFormat : 'YYYY' }} - {{ 'TODOS_OS_DIREITOS_RESERVADOS' | translate }}. <span> {{ $root.appVersion.backend.data.version }} / {{ $root.appVersion.frontend.version }}</span>
+</div> -->
+				<!-- LAST FOOTER -->
+				<div class="footer-2 ng-scope" ng-controller="UtilizadorController" ng-init="init()">
+					<div class="container footer-container">
+						<div class="row">
+							<div class="col-md-12">
+								<ul class="footer-texto">
+									<li class="text-white">
+										<!-- ngIf: toggleMenu -->
+									</li>
+									<li ng-click="toggleMenu = !toggleMenu" class="footer-version ng-binding">©
+										MINISTÉRIO
+										DA ADMINISTRAÇÃO E TERRITÓRIO 2022 - TODOS OS DIREITOS RESERVADOS. <span
+											ng-click="gerirmenus=!gerirmenus" class="ng-binding"></span>
+									</li>
+									<li>
+
+
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+		</custom-footer>
+	</div>
+	<script async="" src="asset/analytics.js.transferir"></script>
+	<script src="asset/platform.js.transferir" gapi_processed="true"></script>
+	<script src="asset/core-44654a4ada1662545247404.js.transferir"></script>
+	<script src="asset/plugins-2a9bfb08be1662545247404.js.transferir"></script>
+	<script type="text/javascript" src="asset/Blob.js.transferir"></script>
+	<script type="text/javascript"
+		src="asset/angular-file-saver.bundle.min.js.transferir"></script>
+	<script src="asset/app-e4488121351662545247404.js.transferir"></script>
+	<script type="text/javascript" src="asset/tinymce.min.js.transferir"></script>
+
+
+	
+	
+	
+</body>
+
+</html>
